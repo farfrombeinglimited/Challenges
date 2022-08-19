@@ -1,0 +1,583 @@
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 70px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-color: gray;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    z-index: 100;
+}
+.close{
+    position: absolute;
+    top: 18px;
+    right: 5px;
+}
+.close-button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 7px 11px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.Facebook-profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 290px;
+}
+.Facebook-username{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.buttons{
+    margin-right: 50px;
+}
+.Befriend-button{
+    background-color: rgb(10, 104, 194);
+    border: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 8px 13px;
+    margin-right: 10px;
+}
+.dm-button{
+    background-color: lightgray;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 13px;
+}
+.sidebar01{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(33, 33, 33);
+    position: fixed;
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    width: 70px;
+    z-index: 150;
+}
+.users{
+    margin-top: 15px;
+    margin-bottom: 15x;
+    margin-left: 10px;
+}
+.sidebar02{
+    background-color: rgb(55, 55, 55);
+    top: 0;
+    left: 70px;
+    bottom: 0px;
+    width: 210px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    z-index: 150;
+}
+.navigators{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.Info{
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.plus-sign{
+    color: rgb(150, 150, 150);
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 20px;
+}
+.items{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(150, 150, 150);
+    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.messages-notifications{
+    border-radius: 7px;
+    border: 2px solid lightgrey;
+    width: 300px;
+}
+.Rows{
+    display: flex;
+    flex-direction: rows;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 12px;
+}
+.tags{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.amount{
+    background-color: cornflowerblue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 3px 10px;
+}      
+.Yahoo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rebeccapurple;
+    padding: 10px 15px;
+    align-items: center;
+    margin-top: 30px;
+    width: 800px;
+}     
+.left-section{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 100px;
+}
+.mid-section{
+    flex: 1;
+    max-width: 450px;
+}
+.Search-bar{
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightgray;
+    border-radius: 15px;
+    padding: 6px 12px;
+    border: none;
+    width: 400px;
+}
+.right-section{
+    width: 100px;
+}
+.Button01{
+    background-color: rgb(178, 176, 176);
+    color: white;
+    border: 1px solid rebeccapurple;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 3px;
+}
+.commercials{
+    border-color: rgb(240, 240, 240);
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    width: 375px;
+    padding: 10px 13px;
+    height: 130px;
+}
+.upper-section{
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+.mid-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.left-section02{
+    margin-right: 10px;
+}
+.Profile-picture{
+    height: 45px;
+    width: 45px;
+    border-radius: 23px;
+}
+.Promotion-stats{
+    display: flex;
+    flex-direction: column;
+    
+}
+.Promotions{
+    display: flex;
+    flex-direction: row;
+    width: 320px;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand-names{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.time{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: gray;
+}
+.description{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 3px;
+}
+.content{
+    color: gray;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif
+}
+.commercials-section{
+    border-color: rgb(240, 240, 240);
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    width: 375px;
+    padding: 10px 13px;
+    height: 320px;
+}
+.twitter-simulator{
+    display: flex;
+    flex-direction: row;
+    width: 360px;
+    margin-top: 30px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 10px;
+}
+.username{
+    display: flex;
+    flex-direction: row;
+}
+.name{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    margin-right: 5px;
+}
+.account{
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+    font-size: 15px;
+}
+.twitter-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    color: black;
+}
+.video{
+    display: flex;
+    flex-direction: row;
+    width: 280px;
+    border-color: lightgray;
+    border-width: 1px;
+    border-radius: 10px;
+    border-style: solid;
+    align-items: center;
+    overflow: hidden;
+}
+.video-description{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.video-link{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: gray;
+}
+.video-title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: black;
+}
+.video-preview{
+    background-color: lightgrey;
+    width: 100px;
+    height: 80px;
+    margin-right: 10px;
+}
+.promotion{
+    background-color: black;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-direction: column;
+}
+.on-sale{
+    position: relative;
+    width: 250px;
+}
+.clothes{
+    width: 250px;
+    object-fit: cover;
+}
+.special-offer{
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    padding: 8px 18px;
+    font-size: 17px;
+}
+.Buy{
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Buy-button{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(210, 204, 212);
+    border: none;
+    padding: 10px 15px;
+}
+.Purchase{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Purchase-btn{
+    padding: 10px 15px;
+    border: none;
+    background-color: rgb(80, 80, 80);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 18px;
+    border-radius: 7px;
+    color: white;
+}
+.error-pop-up{
+    border-radius: 10px;
+}
+#error{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+/**/
+.Date{
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    margin-top: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.Math-questions{
+    background-color: rgb(10, 104, 194);
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.passenger-counter{
+    background-color: rgb(55, 55, 55);
+    text-align: center;
+    padding: 20px 10px;
+    width: 350px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.attendance{
+    color: white;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 0;
+}
+.increment-button{
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: rgb(55, 55, 55);
+    border-radius: 5px;
+}
+#save-button{
+    padding: 10px 15px;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    color: rgb(55, 55, 55);
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.basic-calculator{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    align-items: center;
+    border-radius: 10px;
+    padding: 15px 10px;
+    border: 3px solid rgb(80, 80, 80);
+}
+.numbers{
+    display: flex;
+    flex-direction: row;
+}
+#num1{
+    font-weight: 700;
+    text-decoration: underline;
+    margin-right: 7px;
+    font-size: 20px;
+}
+#num2{
+    font-weight: 700;
+    text-decoration: underline;
+    margin-left: 7px;
+    font-size: 20px;
+}
+.Math-btns{
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 18px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.welcome-board{
+    background-color: rgb(10, 104, 194);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    padding: 15px 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    width: 500px;
+    text-align: center;
+}
+#Entries-count{
+    color: white;
+    font-family: 15px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Scoreboard{
+    background-color: rgb(15, 35, 100);
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 600px;
+    padding: 0px 20px 15px 20px;
+}
+.Scoreboard-section{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(15, 35, 100);
+    width: 600px;
+    align-items: center;
+}
+.ClassicTexts{
+    font-size: 25px;
+    font-weight: 700;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    padding-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.ScoreContainers{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 85px;
+    align-items: center;
+}
+#scoresA{
+    color: rgb(250, 100, 157);
+    font-size: 45px;
+    font-family: 'Silkscreen', cursive;
+}
+#scoresB{
+    color: rgb(250, 100, 157);
+    font-size: 45px;
+    font-family: 'Silkscreen', cursive;
+}
+.scoreButtons{
+    margin-bottom: 10px;
+}
+.IncrementScores{
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    background-color: rgb(15, 35, 100);
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 3px;
+    font-family: 'Silkscreen', cursive;
+}
+.reset-container{
+    display: flex;
+    justify-content: center;
+}
+#Reset-btn{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border: 2px solid #9AABD8;
+    background-color: rgb(15, 35, 100);
+    font-family: 'Silkscreen', cursive;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
